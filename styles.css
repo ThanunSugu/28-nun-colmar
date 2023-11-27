@@ -1,17 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.navbar{
+.app{
+    font-family: 'Kanit', sans-serif;
+    height: 100vh;
+    background-color: wheat;
+
     display: flex;
+    flex-direction: column;
+    /* font-size: 2rem; */
+}
+.img-60{
+    width: 60%;
+    height: auto;
+}
+.img-30{   
+    width: 35%;
+    height: auto;
 }
 
-.left-top-bar{
+/* header */
 
-
+.header{
+    display: flex;
+    background-color: brown;
     
+}
+
+/* .logo{
+    padding-top: ;
+} */
+.navbar{
+    padding-bottom: 32px;
+    background-color: darkgrey;
+    display: flex;
+    align-items: center;
+    /* padding: 0px 24px 32px 24px; */
+    
+    
+}
+
+
+.left-top-bar{
+    background-color: rgb(15, 163, 114);
+    /* text-align: center; */
+    padding-left: 24px;  
+    margin: 0px;
+    
+
     /* text-decoration: none;
     list-style: none; */
+}
+.logo{
+    align-items: center;
+    
+    
+}
+
+.text-logo{
+    align-items: baseline;
+    /* text-align: center; */
+    flex-grow: 1;
+    
+
+}
+.p-text-logo{
+    color: rgb(61, 58, 58);
+    background-color: blueviolet;
+    font-size: 1.32rem;
+}
+strong{
+    color: black;
+}
+
+.right-top-bar{
+    background-color: aqua;
+    display: flex;    
+    flex-grow: 1;
+    justify-content: flex-end;
+    padding-right: 24px;
+    /* padding: 32px; */
+}
+
+.nav-list{
+    background-color: yellow !important;
+    list-style: none;
+    display: flex;
+    flex-direction: row;  
+    gap: 16px;
+    
+}
+.nav-link{
+    background-color: red;
+    text-decoration: none;
+    color: rgba(31, 24, 24, 0.76);
+       
+    
+    
+}
+
+
+/* main */
+
+.main{
+    background-color: rgb(70, 70, 212);
+    display: flex;
+    flex-direction: column;
+}
+
+/*section learn*/
+
+.section-learn{
+    background-color: rgb(226, 90, 90);
+    display: flex;
+    flex-direction: row;
+    padding-left: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    gap: 24px;
+    flex-grow: 1;
+}
+
+
+
+.submit{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    background-color: rgb(56, 54, 54);
+    color: white;
+}
+
+
+
+
+
+
+
+/*section practicing*/
+
+.section-practicing{
+    background-color: rgb(69, 240, 69);
+    display: flex;
+    flex-direction: row;
+    padding-left: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    gap: 24px;
+    /* flex-grow: 1; */
+}
+
+.left-section-practicing{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    /* flex-grow: 1; */
+}
+
+
+.right-section-practicing{
+    background-color: aquamarine;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.right-practicing-text-a{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 16px;
+}
+
+.right-practicing-text-b{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 16px;
+}
+
+.right-practicing-text-c{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 16px;
+}
+
+
+
+/*section start*/
+
+.section-start{
+    background-color: rgb(208, 178, 247);
+}
+.section-exhibit{
+    background-color: rgb(247, 162, 106);
 }
