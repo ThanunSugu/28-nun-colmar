@@ -195,10 +195,6 @@ strong{
     margin: 16px;
 }
 
-
-
-
-
 .right-practicing-text-b{
     display: flex;
     flex-direction: row;
@@ -219,12 +215,17 @@ strong{
 
 .section-start{
     background-color: rgb(208, 178, 247);
-    
+    padding-top: 32px;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-bottom: 32px;
+
 }
 
 
 .align-start{
     text-align: center;
+    padding-bottom: 32px;
     
 }
 
@@ -251,22 +252,33 @@ strong{
     flex-direction: column;
     height: auto;
     width: 30%;
+   
     
 
 
 }
 
 .text-section-detail{
-    
+    background-color: blueviolet;
+    padding-left: 16px;
+}
+
+.h3-pad{
+    padding-top: 16px;
 }
 
 .upper-text{
     color: rgb(126, 125, 125);
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .normal-text{
     color: rgb(126, 125, 125);
+    padding-bottom: 24px;
 }
+
+
 
 
 
@@ -276,4 +288,59 @@ strong{
 
 .section-exhibit{
     background-color: rgb(247, 162, 106);
+    
+}
+.all-exhibit{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(106, 247, 130);
+    gap: 24px;
+}
+.left-exhibit{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    background-color: rgb(247, 106, 217);
+    width: 60%;
+
+}
+.vedio-exhibit{
+   
+}
+
+
+.right-exhibit{
+    background-color: blue;
+    display: flex;
+    flex-grow: 1;
+    width: 40%;
+    flex-direction: column;
+
+}
+
+.right-exhibit-text-a{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.right-exhibit-text-b{
+    background-color: rgb(223, 226, 43);
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer{
+    display: flex;
+    padding-right:24px ;
+    padding-top: 16px;
+    padding-bottom: 40px;
+    gap: 10px;
+}
+
+.f-left{
+    flex-grow: 1;
 }
